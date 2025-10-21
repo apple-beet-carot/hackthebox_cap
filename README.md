@@ -4,7 +4,7 @@ I tired port scanning with rustscan.
 ### Where did I find the password?
 The PCAP file contains sensative data as the password.
 
-### What did you do get root privileges?
+### How did you get root privileges?
 You need to find the binary had special capabilities. You can run "linpeas" on kali to help find it, and use the "getcap" command to check the binary's capabilities.
 
 ## Ref
